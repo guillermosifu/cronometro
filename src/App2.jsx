@@ -2,6 +2,7 @@ import React, { useState, useRef } from "react";
 import PlayArrowIcon from "@mui/icons-material/PlayArrow";
 import PauseIcon from "@mui/icons-material/Pause";
 import StopIcon from "@mui/icons-material/Stop";
+import TimerIcon from '@mui/icons-material/Timer';
 import "./App.css";
 
 function App2() {
@@ -38,6 +39,7 @@ function App2() {
 
   return (
     <div className="container">
+      <TimerIcon sx={{ fontSize: 90 , color:"#000" }} />
       <div className="timer ">{formatTime(timeElapsed)}</div>
       <div className="buttons">
         <button
