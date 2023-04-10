@@ -10,13 +10,23 @@ body {
     justify-content: center;
    
   }
+
+  .h1{
+    background-color: red;
+    color:#fff;    
+    text-align: center;
+    margin:0 ;
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+   
+  }
   
   .container {
     margin-top: 10%;
     background-color: #fff;    
     height: 70vh;
-    width: 100%;
-    padding: 2rem;
+    width: 100%;   
     border: solid red;
     border-radius: 20px;
   }
@@ -34,6 +44,7 @@ body {
     display: flex;
     justify-content: center;
     justify-content: space-around;
+    margin: 1rem;
    
   }
   
@@ -46,6 +57,7 @@ body {
     padding: 1rem 2rem;
     border-radius: 0.5rem;
     transition: background-color 0.2s ease-in-out;
+    margin-left: 0.825rem;
   }
   
   .buttons button:hover {

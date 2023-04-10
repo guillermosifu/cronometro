@@ -39,6 +39,7 @@ function App2() {
 
   return (
     <div className="container">
+      <h1 className="h1">MANTENIMIENTO</h1>
       <TimerIcon sx={{ fontSize: 90 , color:"#000" }} />
       <div className="timer ">{formatTime(timeElapsed)}</div>
       <div className="buttons">
